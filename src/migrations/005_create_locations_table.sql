@@ -1,0 +1,7 @@
+CREATE TABLE locations (
+    id int AUTO_INCREMENT PRIMARY KEY,
+    alamat TEXT NOT NULL,
+    latitude DOUBLE NOT NULL,
+    longitude DOUBLE NOT NULL,
+    created_at TIMESTAMP NOT NULL
+);
