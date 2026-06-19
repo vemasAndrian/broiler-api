@@ -8,6 +8,7 @@ class ProsesModel {
                 p.id AS proses_id,
                 p.status,
                 p.tgl_penggiriman,
+                p.customer,
                 l.alamat
             FROM proses p
             LEFT JOIN locations l
