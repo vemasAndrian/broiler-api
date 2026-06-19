@@ -3,5 +3,5 @@ CREATE TABLE locations (
     alamat TEXT NOT NULL,
     latitude DOUBLE NOT NULL,
     longitude DOUBLE NOT NULL,
-    created_at TIMESTAMP NOT NULL
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
 );

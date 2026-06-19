@@ -6,7 +6,7 @@ CREATE TABLE proses (
     tgl_penggiriman DATE NOT NULL,
     status VARCHAR(60) NOT NULL, 
     bukti_penggiriman TEXT,
-    created_at TIMESTAMP NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     delivered_at TIMESTAMP,
     shipped_at TIMESTAMP,
     canceled_at TIMESTAMP,
