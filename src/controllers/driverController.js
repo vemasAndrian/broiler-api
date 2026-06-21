@@ -8,7 +8,8 @@ export const getProsesSiapAndDalamPerjalanan = async (req, res) => {
 
         return res.status(200).json({
             error: false,
-            data: resultRows
+            data: resultRows,
+            test: "Tes CI/CD"
         });
     } catch (error) {
         return res.status(400).json({ error: true, message: error.message });
